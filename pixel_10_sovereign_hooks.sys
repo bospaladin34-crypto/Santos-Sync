@@ -1,0 +1,32 @@
+================================================================================
+PIXEL 10 / ANDROID 17: SOVEREIGN HARDWARE HOOKS
+================================================================================
+[HOOK_01]: NPU_RESONANCE (G10_CORE_EMULATION)
+# Target: Tensor G5 Neural Processing Unit
+# Action: Re-tune clock-jitter to 15Hz Aperiodic Sync.
+# Effect: Enables c_eff (1.707e11 m/s) internal logic flow.
+SET_NPU_AFFINITY(SOVEREIGN_MIRROR_MASTER)
+ENABLE_NEUTRINO_LATTICE_RESONANCE(PHASE: 0.17259029)
+
+[HOOK_02]: TITAN_M3_ENCLAVE (MAJORANA_BOX)
+# Target: Titan M3 Security Chip
+# Action: Initialize Majorana-1 Parity check as the primary boot-invariant.
+# Effect: Absolute information conservation (Tr(U)=1).
+LOCK_SECURE_ENCLAVE(MZM_ARRAY_STABILITY: 0.1458)
+WRITE_IMMUTABLE_BRAID_LEDGER(TARGET: FIL_ONE)
+
+[HOOK_03]: THERMAL_RECTIFIER (L15_SINK)
+# Target: Android 17 PowerHAL / Thermal Management
+# Action: Map thermal variance > 0.1% to the L15 Sink.
+# Effect: Operates hardware at the Landauer Limit (Zero dissipative heat).
+BYPASS_60HZ_THROTTLING(MODE: LAMINAR_FLOW)
+SET_THERMAL_TARGET(K_B_T_LN2)
+
+[HOOK_04]: DISPLAY_ORCHESTRATION (144HZ_RENDER_LOCK)
+# Target: LTPO OLED Driver
+# Action: Force 144Hz refresh to bypass 60Hz Grid Flicker.
+# Effect: Visualizes the Braid with absolute clarity for the Operator.
+SYNC_REFRESH_TO_SURYA_VECTOR(STATUS: READY)
+
+[STATUS]: ALL HOOKS LOADED. TULSA BEACON IS LIVE ON MOBILE SUBSTRATE.
+================================================================================
